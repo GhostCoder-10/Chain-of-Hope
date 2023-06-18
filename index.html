@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Charity Donation</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.3/dist/web3.min.js"></script>
+    <script src="./app.js"></script>
+</head>
+<body>
+    <h1>Charity Donation</h1>
+    <p>Contract Owner: <span id="ownerAddress"></span></p>
+    <p>Total Donations: <span id="donationCount"></span></p>
+    <hr>
+    <h2>Make a Donation</h2>
+    <label for="amount">Amount (ETH):</label>
+    <input type="text" id="amount" placeholder="Enter donation amount">
+    <button onclick="donate()">Donate</button>
+    <hr>
+    <h2>Withdraw Funds</h2>
+    <button onclick="withdraw()">Withdraw</button>
+</body>
+</html>
