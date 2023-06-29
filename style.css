@@ -1,0 +1,64 @@
+body{
+    color: white;
+    background-image: url("./abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg");
+}
+.headline{
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    padding: 30px 30px 5px 30px;
+}
+
+.tagline{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.contract-owner, .total-donations{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.make-donations{
+    text-align: center;
+    font-size: 25px;
+}
+
+.amount-entry{
+    text-align: center;
+}
+input {
+    background: none;
+    border: white solid 1px;
+    outline: none;
+    padding: 10px;
+    margin: 10px 5px 10px 5px;
+    /* Additional styling */
+    /* Add your custom styles here */
+  }
+
+.amount{
+    font-size: 20px;
+}
+
+
+.donate-btn {
+    margin: 15px;
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #ffffff 2px;
+    text-decoration: none;
+  }
+  
+.donate-btn:hover {
+    background: #ffffff;
+    text-decoration: none;
+  }
+  

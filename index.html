@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Arvo&family=Bebas+Neue&family=Cairo:wght@700&family=Chivo+Mono:wght@300&family=Dosis:wght@600&family=Edu+VIC+WA+NT+Beginner&family=Fira+Sans:ital,wght@1,500&family=Fjalla+One&family=IBM+Plex+Mono:wght@300&family=Josefin+Sans:ital,wght@1,500&family=Lato&family=Noto+Serif+NP+Hmong&family=Nova+Flat&family=Roboto&family=Roboto+Slab:wght@300&family=Rubik:wght@300&family=Secular+One&family=Unbounded&display=swap" rel="stylesheet">
+
     <title>Charity Donation</title>
     </head>
 <body>
-    <h1>Charity Donation</h1>
-    <p>Contract Owner: <span id="ownerAddress"></span></p>
-    <p>Total Donations: <span id="donationCount"></span></p>
+    <h1 class="headline">CHARITY & DONATIONS</h1>
+    <h3 class="tagline">A Charity Project for Street Dogs</h3>
+    <p class="contract-owner">Contract Owner: <span id="ownerAddress"></span></p>
+    <p class="total-donations">Total Donations: <span id="donationCount"></span></p>
     <hr>
-    <h2>Make a Donation</h2>
-    <label for="amount">Amount (ETH):</label>
-    <input type="text" id="amount" placeholder="Enter donation amount">
-    <button onclick="donate()">Donate</button>
+    <h2 class="make-donations">Make a Donation</h2>
+    <div class="amount-entry">
+        <label class="amount" for="amount">Amount (ETH):</label>
+    <input class="amount-input" type="text" id="amount" placeholder="Enter donation amount"> <br>
+    <button class="donate-btn" onclick="donate()">Donate</button>
+    </div>
+    
     <hr>
     
 </body>
@@ -115,7 +124,7 @@
 ];
 
     // Contract Address - Deployed smart contract address on Ethereum network
-    const contractAddress = "0x26Ea01c7cDe47190B146FB80796aBf6c3AE480D6";
+    const contractAddress = "0xF8CBa27638B7F345D89B615971C231307D2a14E6";
 
 
 // Connect to the Ethereum network using web3.js
